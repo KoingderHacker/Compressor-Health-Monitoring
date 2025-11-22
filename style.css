@@ -1,0 +1,71 @@
+/* Gradient background */
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+  min-height: 100vh;
+  color: #f1f5f9;
+  font-family: "Inter", sans-serif;
+}
+
+/* Glass UI box */
+.glass-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  margin-bottom: 2rem;
+}
+
+/* JSON textarea styling */
+textarea {
+  background-color: #0f172a !important;
+  color: #e2e8f0 !important;
+  border-radius: 8px !important;
+  border: 1px solid #334155 !important;
+  font-family: monospace !important;
+  padding: 10px !important;
+}
+
+/* Prediction output box */
+.output-box {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  color: #e2e8f0;
+  font-family: monospace;
+}
+
+/* AI themed gradient button */
+.btn-ai {
+  background: linear-gradient(90deg, #3b82f6, #9333ea);
+  border: none;
+  color: white !important;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn-ai:hover {
+  opacity: 0.85;
+  transform: scale(1.03);
+}
+/* Inner cards inside comparison grid */
+.glass-inner {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+}
+table.table-dark {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table td, table th {
+  padding: 12px !important;
+  vertical-align: middle !important;
+}
+
+thead tr th {
+  font-size: 1.05rem;
+}
